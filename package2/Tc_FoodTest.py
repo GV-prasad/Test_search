@@ -13,7 +13,8 @@ class FoodTest(unittest.TestCase):
         self.driver.get_screenshot_as_file("C:\DRIVERS\CB.png")
         print("the indians most favourite dish")
         print("executed suucefully1")
-
+        print("done")
+        
     def test_Falooda(self):
         serv_obj=Service("C:\DRIVER\chromedriver_win32\chromedriver.exe")
         self.driver=webdriver.Chrome(service=serv_obj)
@@ -24,6 +25,7 @@ class FoodTest(unittest.TestCase):
         self.driver.get_screenshot_as_file("C:\DRIVERS\Falooda.png")
         print("the famous drink in india")
         print("executed succesfully2")
-
+        print("done")
+        
 if __name__ =="__main__":
     unittest.main()
