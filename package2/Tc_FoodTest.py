@@ -12,6 +12,7 @@ class FoodTest(unittest.TestCase):
         self.assertFalse(dish== "mocktail")
         self.driver.get_screenshot_as_file("C:\DRIVERS\CB.png")
         print("the indians most favourite dish")
+        print("executed suucefully1")
 
     def test_Falooda(self):
         serv_obj=Service("C:\DRIVER\chromedriver_win32\chromedriver.exe")
@@ -22,6 +23,7 @@ class FoodTest(unittest.TestCase):
         self.assertFalse(drink== "carlsburg")
         self.driver.get_screenshot_as_file("C:\DRIVERS\Falooda.png")
         print("the famous drink in india")
+        print("executed succesfully2")
 
 if __name__ =="__main__":
     unittest.main()

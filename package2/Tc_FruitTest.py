@@ -12,6 +12,6 @@ class FruitTest(unittest.TestCase):
         self.assertNotEqual("delicous",fruits)
         self.driver.get_screenshot_as_file("C:\DRIVERS\mango.png")
         print("the indian summer fruit")
-
+        print("excuted succefully")
 if __name__=="__main__":
     unittest.main()
